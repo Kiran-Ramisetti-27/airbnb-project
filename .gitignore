@@ -1,0 +1,19 @@
+# Local configuration
+.user.yml
+profiles.yml
+
+# Secrets
+.env
+.env.*
+*.p8
+*.pem
+*.key
+
+# Python
+.venv/
+__pycache__/
+
+# dbt
+target/
+logs/
+dbt_packages/
